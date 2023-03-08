@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+.wrapper {
+    padding-top: 50px;
+    height: 100vh;
+    background-color: black;
+}
+.container {
+    border: 2px solid green;
+    border-radius: 10px;
+    width: 300px;
+    height: 500px;
+    margin: 10px auto;
+    background-color: white;
+}
+.screen {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+h2 {
+    font-family: 'Tilt Prism', cursive;
+    text-align: center;
+    color: white;
+}
+#screen {
+    height: 40px;
+    width: 95%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    text-align: right;
+    font-size: 35px;
+}
+.bottom {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 72px);
+    margin-top: 30px;
+}
+.bottom button {
+    height: 72px;
+    border: 2px solid gray;
+    outline: none;
+    background-color: black;
+    font-size: 45px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Tilt Prism', cursive;
+}
+.bottom button:hover {
+    opacity: 0.5;
+}
+.delete-all {
+    grid-column: span 2;
+}
+.delete {
+    grid-column: span 2;
+}
